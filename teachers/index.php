@@ -3,7 +3,7 @@ require_once __DIR__ . '/../includes/config.php';
 $page_title = 'Kaikki opettajat';
 require_once __DIR__ . '/../includes/header.php';
 
-// SQL aliasit eri nimillä
+
 $query = "
     SELECT teacher_id AS id, first_name AS fname, last_name AS lname, subject AS subj
     FROM teachers
