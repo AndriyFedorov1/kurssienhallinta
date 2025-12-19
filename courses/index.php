@@ -3,7 +3,7 @@ require_once __DIR__ . '/../includes/config.php';
 $page_title = 'Kaikki kurssit';
 require_once __DIR__ . '/../includes/header.php';
 
-// Tehdään kysely hieman eri tavalla ja aliasit eri nimillä
+
 $query = "
     SELECT 
         c.course_id AS id, 
